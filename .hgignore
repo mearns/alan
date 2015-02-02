@@ -1,3 +1,4 @@
+syntax: glob
 
 #Sphinx output
 sphinx/build
@@ -6,17 +7,11 @@ sphinx/build
 README.html
 
 #Build files
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-
+build
+dist
 distribute-*.egg
 distribute-*.tar.gz
-*.egg-info/
+*.egg-info
 *.egg
 setuptools-*.zip
 setuptools-*.tar.gz
